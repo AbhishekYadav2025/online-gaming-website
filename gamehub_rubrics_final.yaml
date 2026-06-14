@@ -1,0 +1,265 @@
+rubrics:
+
+  - id: 1
+    description: >
+      The response includes a Figma source file inside the submission archive.
+    category: Instruction Following
+    importance: High
+
+  - id: 2
+    description: >
+      The response includes a Design System Documentation file in PDF format.
+    category: Instruction Following
+    importance: High
+
+  - id: 3
+    description: >
+      The response includes a plain text file in the submission archive.
+    category: Instruction Following
+    importance: High
+
+  - id: 4
+    description: >
+      The response includes PNG exports for all 6 page types (Home, Profile, Matchmaking,
+      News, Forum, Events) at the Desktop breakpoint.
+    category: Instruction Following
+    importance: High
+
+  - id: 5
+    description: >
+      The response includes PNG exports for all 6 page types (Home, Profile, Matchmaking,
+      News, Forum, Events) at the Mobile breakpoint.
+    category: Instruction Following
+    importance: High
+
+  - id: 6
+    description: >
+      The response includes all PNG screen exports at 2x resolution.
+    category: Instruction Following
+    importance: High
+
+  - id: 7
+    description: >
+      The response includes a handoff README file in PDF format.
+    category: Instruction Following
+    importance: High
+
+  - id: 8
+    description: >
+      The response includes all deliverables packaged inside a single compressed archive file.
+    category: Instruction Following
+    importance: High
+
+  - id: 9
+    description: >
+      The response includes a Figma file containing all 8 pages: 01 Design System, 02 Home,
+      03 Profile, 04 Matchmaking, 05 News, 06 Forum, 07 Events, and 08 Prototype.
+    category: Structure & Format
+    importance: High
+
+  - id: 10
+    description: >
+      The response includes Figma frames where each frame is named in the
+      PageName / Breakpoint format.
+    category: Structure & Format
+    importance: High
+
+  - id: 11
+    description: >
+      The response includes a Figma file that contains zero auto-generated layer names
+      such as Layer 1, Rectangle 3, or Group 7.
+    category: Instruction Following
+    importance: High
+
+  - id: 12
+    description: >
+      The response includes a Figma prototype link that does not require the viewer
+      to sign in to a Figma account to access it.
+    category: Instruction Following
+    importance: High
+
+  - id: 13
+    description: >
+      The response includes a Figma source file that does not exceed 200MB in size.
+    category: Instruction Following
+    importance: Medium
+
+  - id: 14
+    description: >
+      The response includes a Design System Documentation that lists all 11 color tokens:
+      color-background, color-surface, color-surface-raised, color-accent-primary,
+      color-accent-secondary, color-text-primary, color-text-secondary, color-border,
+      color-success, color-warning, and color-error.
+    category: Content Quality
+    importance: High
+
+  - id: 15
+    description: >
+      The response includes a Design System Documentation where every color token
+      is assigned an actual hex value rather than a placeholder.
+    category: Content Quality
+    importance: High
+
+  - id: 16
+    description: >
+      The response includes a Design System Documentation that lists all 6 typography
+      tokens: text-h1, text-h2, text-h3, text-body, text-caption, and text-button.
+    category: Content Quality
+    importance: High
+
+  - id: 17
+    description: >
+      The response includes a design that uses no more than 2 typefaces across all frames.
+    category: Instruction Following
+    importance: High
+
+  - id: 18
+    description: >
+      The response includes a Design System Documentation that lists all 8 spacing tokens
+      from space-1 (4px) to space-8 (64px).
+    category: Content Quality
+    importance: Medium
+
+  - id: 19
+    description: >
+      The response includes a Design System Documentation that states the name of the
+      icon library used in the design.
+    category: Instruction Following
+    importance: Medium
+
+  - id: 20
+    description: >
+      The response includes a Design System Documentation that documents all 12 required
+      components: NavBar, Button, Input Field, Dropdown, ProfileCard, MatchCard, NewsCard,
+      ForumCard, EventCard, Badge, Avatar, and Pagination.
+    category: Content Quality
+    importance: High
+
+  - id: 21
+    description: >
+      The response includes a NavBar Figma component that contains a Desktop variant.
+    category: Instruction Following
+    importance: High
+
+  - id: 22
+    description: >
+      The response includes a NavBar Figma component that contains a Mobile collapsed variant.
+    category: Instruction Following
+    importance: High
+
+  - id: 23
+    description: >
+      The response includes a Button Figma component that contains a Disabled variant.
+    category: Instruction Following
+    importance: Medium
+
+  - id: 24
+    description: >
+      The response includes a Figma prototype that contains at least 3 interactive links.
+    category: Instruction Following
+    importance: High
+
+  - id: 25
+    description: >
+      The response includes mobile frames in which no element extends beyond the 375px frame width.
+    category: Instruction Following
+    importance: High
+
+  - id: 26
+    description: >
+      The response includes mobile frames where the global navigation bar shows a hamburger
+      menu icon instead of inline nav links.
+    category: Instruction Following
+    importance: High
+
+  - id: 27
+    description: >
+      The response includes a mobile Matchmaking frame where the filter panel is replaced
+      by a single Filters button.
+    category: Instruction Following
+    importance: Medium
+
+  - id: 28
+    description: >
+      The response includes a mobile Event Calendar frame that displays one week at a time
+      rather than a full monthly grid.
+    category: Instruction Following
+    importance: Medium
+
+  - id: 29
+    description: >
+      The response includes frames where all body text achieves a minimum contrast ratio
+      of 4.5:1 against its background color.
+    category: Content Quality
+    importance: High
+
+  - id: 30
+    description: >
+      The response includes frames where all text sized 18px or larger achieves a minimum
+      contrast ratio of 3:1 against its background color.
+    category: Content Quality
+    importance: High
+
+  - id: 31
+    description: >
+      The response includes frames where every padding value is a multiple of 4px.
+    category: Instruction Following
+    importance: High
+
+  - id: 32
+    description: >
+      The response includes a design that uses no more than 3 distinct accent colors
+      across all frames.
+    category: Instruction Following
+    importance: Medium
+
+  - id: 33
+    description: >
+      The response includes frames where the H1 heading appears exactly once per page.
+    category: Content Quality
+    importance: Medium
+
+  - id: 34
+    description: >
+      The response includes frames where no component instance is detached from the
+      Figma component library.
+    category: Content Quality
+    importance: High
+
+  - id: 35
+    description: >
+      The response includes frames that contain no real game titles anywhere.
+    category: Instruction Following
+    importance: High
+
+  - id: 36
+    description: >
+      The response includes frames where every image slot is a filled placeholder rectangle
+      rather than a real image.
+    category: Instruction Following
+    importance: High
+
+  - id: 37
+    description: >
+      The response includes frames that contain no Lorem Ipsum text anywhere.
+    category: Instruction Following
+    importance: Medium
+
+  - id: 38
+    description: >
+      The response includes a Live Matchmaking Preview section on the Home Page Desktop frame.
+    category: Content Quality
+    importance: High
+
+  - id: 39
+    description: >
+      The response includes an Event Detail Card on the Event Calendar page that contains
+      a Register button.
+    category: Content Quality
+    importance: High
+
+  - id: 40
+    description: >
+      The response does not include any Canva exports in the submission archive.
+    category: Instruction Following
+    importance: High
